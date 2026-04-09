@@ -28,7 +28,10 @@ SECRET_KEY = 'django-insecure-oav@xzwtc$u%)a9^ux)b4q6mzqp^#x06ccwfqw#j$0h8u!x2ei
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mytodolistnew.onrender.com']
+CSRF_TRUSTED_ORIGINS = [
+    "https://mytodolistnew.onrender.com"
+]
 
 # Application definition
 
